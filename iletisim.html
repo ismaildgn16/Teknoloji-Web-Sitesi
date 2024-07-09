@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bilişim Teknoloji</title>
+    <link rel="stylesheet" href="./bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <script src="./bootstrap.js"></script>
+  </head>
+  <body>
+    <div class="ust-kisim-sayfalar">
+      <nav class="navbar navbar-expand-lg nav-bg">
+        <div class="container p-0">
+          <a class="navbar-brand" href="index.html"
+            ><img class="img-fluid logo" src="./images/logo.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul
+              class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-end"
+            >
+              <li class="nav-item d-flex align-items-center p-2">
+                <a class="nav-link" aria-current="page" href="hakkimizda.html">
+                  <i class="fa-solid fa-circle-info"></i> Hakkımızda</a
+                >
+                <span class="ayrac">|</span>
+              </li>
+              <li class="nav-item d-flex align-items-center p-2">
+                <a class="nav-link" href="hizmetlerimiz.html"
+                  ><i class="fa-solid fa-gears"></i> Hizmetlerimiz</a
+                >
+                <span class="ayrac">|</span>
+              </li>
+              <li class="nav-item d-flex align-items-center p-2">
+                <a class="nav-link" href="portfoy.html"
+                  ><i class="fa-solid fa-folder-open"></i> Portföyümüz</a
+                >
+                <span class="ayrac">|</span>
+              </li>
+              <li class="nav-item d-flex align-items-center p-2">
+                <a class="nav-link" href="blog.html"
+                  ><i class="fa-brands fa-blogger"></i> Blog</a
+                >
+                <span class="ayrac">|</span>
+              </li>
+              <li class="nav-item d-flex align-items-center p-2">
+                <a class="nav-link" href="iletisim.html"
+                  ><i class="fa-solid fa-at"></i> İletişim</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 d-flex align-items-center header-yuk">
+            <img
+              src="./images/logo-2.png"
+              class="img-fluid d-flex align-items-center p-5 mt-5"
+              alt=""
+            />
+            <div class="sayfa-baslik">
+              <h3 class="display-6 mb-3">İLETİŞİM</h3>
+              <p>
+                Hizmetlerimiz ya da teklifler hakkında bizlerle 7/24 iletişim
+                kurmak için aşağıdaki formu doldurabilirsiniz.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-12 my-5">
+          <h5>İletişim Formu</h5>
+          <hr />
+          <form action="">
+            <label for="name" class="text-muted my-1">Adınız Soyadınız</label>
+            <input type="text" id="name" class="form-input w-100 mb-3" />
+
+            <label for="mail" class="text-muted my-1">E-Mail Adresiniz</label>
+            <input type="email" id="mail" class="form-input w-100 mb-3" />
+            <label for="option" class="text-muted my-1">Konu</label>
+            <select class="w-100 p-1 form-input" name="option">
+              <option selected>Teklif Alma</option>
+              <option value="1">Bilgi Edinme</option>
+              <option value="2">Muhasebe</option>
+              <option value="3">Bilgi İşlem</option>
+            </select>
+            <label for="message" class="text-muted my-1 mt-4">Mesajınız</label>
+            <textarea
+              name="message"
+              id="message"
+              class="w-100 form-input"
+              rows="4"
+              cols="50"
+            ></textarea>
+            <button
+              class="btn btn-success text-white d-flex align-items-center rounded-5 mt-3 button"
+            >
+              <img src="./images/gonder-icon.png" alt="" class="me-2" />GÖNDER
+            </button>
+          </form>
+        </div>
+        <div class="col-md-6 col-12 my-md-5 my-0">
+          <img src="./images/iletisim.png" alt="" class="img-fluid" />
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-md-6 col-12">
+          <h5><i class="fa-solid fa-location-dot me-2"></i>Adres</h5>
+          <hr />
+          <p class="text-muted">
+            Cumhuriyet Mah. Burak Reis Cad. No:4 Gebze/KOCAELİ
+          </p>
+          <p class="text-muted">
+            İlmerkezine 0 km İlçe merkezine 10 km Gebze-Harem minibüsleri,
+            belediye ve halk otobüsleri(501,502,503,505),banliyö trenleri
+          </p>
+          <h5><i class="fa-solid fa-phone me-2 mt-3"></i>Telefon</h5>
+          <hr />
+          <a href="#" class="text-decoration-none text-black"
+            ><p>0507 555 55 55</p></a
+          >
+          <h5><i class="fa-solid fa-envelope me-2 mt-3"></i>E-Mail</h5>
+          <hr />
+          <a href="#" class="text-decoration-none text-black"
+            ><p>info@gmail.com</p></a
+          >
+        </div>
+        <div class="col-md-6 col-12 mt-3 mt-md-0">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6040.300678779733!2d29.436240419902322!3d40.80269000817072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cb20928cb17633%3A0x8c69c0a22362602b!2sGebze%20Teknik%20ve%20End%C3%BCstri%20Meslek%20Lisesi%20(GATEM)!5e0!3m2!1str!2str!4v1720562063855!5m2!1str!2str"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            class="w-100 h-100"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid footer mt-3 mt-md-5 p-5">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="social d-flex justify-content-center">
+            <a href="#"
+              ><i class="fa-brands fa-instagram mx-2 text-white"></i
+            ></a>
+            <a href="#"><i class="fa-brands fa-youtube mx-2 text-white"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter mx-2 text-white"></i></a>
+            <a href="#"
+              ><i class="fa-brands fa-facebook mx-2 text-white"></i
+            ></a>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <p class="text-center text-white mt-3">
+            &copy; Copyright 2024 Tüm Hakları Saklıdır.
+          </p>
+          <p class="text-center text-white">By İsmail Doğan</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
